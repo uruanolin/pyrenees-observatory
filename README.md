@@ -33,7 +33,9 @@ El stack está elegido para maximizar la velocidad analítica y la visualizació
 
 ## 4. Estructura de Metadatos
 Siguiendo las buenas prácticas de organización, este repositorio mantiene una memoria activa en `/metadata`:
+- **[MVP_PLAN.md](./metadata/meta/MVP_PLAN.md):** Hoja de ruta simplificada y realista para el prototipo.
 - **[ARCHITECTURE.md](./metadata/meta/ARCHITECTURE.md):** Análisis profundo y diseño del sistema.
+- **[DATA_SOURCES.md](./metadata/meta/DATA_SOURCES.md):** Catálogo de fuentes e índices heurísticos.
 - **[DECISIONS.md](./metadata/meta/DECISIONS.md):** Log de decisiones técnicas (ADR).
 - **[TODO.md](./metadata/meta/TODO.md):** Roadmap y backlog técnico.
 
