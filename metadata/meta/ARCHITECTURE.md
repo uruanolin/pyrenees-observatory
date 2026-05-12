@@ -4,7 +4,8 @@
 - [1. Análisis del Proyecto](#1-análisis-del-proyecto)
 - [2. El Rol de H3](#2-el-rol-de-h3)
 - [3. Estrategia de Datos](#3-estrategia-de-datos)
-- [4. Propuesta Inicial de DDL (DuckDB)](#4-propuesta-inicial-de-ddl-duckdb)
+- [4. Catálogo de Fuentes e Índices](./DATA_SOURCES.md)
+- [5. Propuesta Inicial de DDL (DuckDB)](#5-propuesta-inicial-de-ddl-duckdb)
 
 ---
 
@@ -17,7 +18,7 @@ H3 es el "pegamento". Cada celda hexagonal tiene un ID único.
 - **Ventaja:** Permite sumarización rápida (buckets) y análisis de vecindad sin cálculos trigonométricos costosos.
 
 ## 3. Estrategia de Datos
-Usamos **DuckDB** por su capacidad de leer archivos Parquet y GeoParquet de forma nativa a velocidad extrema. **MotherDuck** nos da la persistencia en la nube sin configurar servidores pesados.
+Usamos **DuckDB** por su capacidad de leer archivos Parquet y GeoParquet de forma nativa a velocidad extrema. **MotherDuck** nos da la persistencia en la nube sin configurar servidores pesados. Consulta el [Catálogo de Fuentes](./DATA_SOURCES.md) para más detalle.
 
 ## 4. Propuesta Inicial de DDL (DuckDB)
 

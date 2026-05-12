@@ -10,14 +10,16 @@
 ## Fase 1: Infraestructura y Datos Base
 - [x] Inicialización del repositorio y metadatos.
 - [x] Propuesta de DDL inicial (DuckDB).
+- [x] Catálogo de fuentes de datos Tier-1 y diseño de índices.
 - [ ] Configuración del entorno de Python con Prefect.
-- [ ] Script para generar la malla H3 inicial del Pirineo de Lleida.
-- [ ] Ingestión de datos de elevación (DEM) y asignación a celdas H3.
+- [ ] Ingesta Batch: Copernicus DEM -> `base_h3_grid`.
+- [ ] Ingesta Batch: Red vial (IGN) -> Atributos de proximidad en H3.
 
-## Fase 2: Ingestión Dinámica
+## Fase 2: Ingestión Dinámica e Índices
 - [ ] Conector para API de Meteocat (Lleida).
 - [ ] Conector para API de AEMET.
-- [ ] Modelado en dbt para unir ambas fuentes en `weather_events`.
+- [ ] Implementación de `logistics_isolation_risk` (cruce nieve + pendiente + vial).
+- [ ] Implementación de `construction_suitability_index` (pendiente + suelo + lluvia).
 
 ## Fase 3: Visualización Pro
 - [ ] Setup de Deck.gl con MapLibre.
