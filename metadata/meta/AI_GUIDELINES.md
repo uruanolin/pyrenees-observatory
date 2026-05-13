@@ -33,5 +33,11 @@ feat: description of the change
 - **H3 Integrity:** El `h3_index` es la clave primaria universal. No se permiten coordenadas GPS aisladas sin su correspondiente índice H3.
 - **Metadata Consistency:** Antes de proponer un cambio, la IA debe leer `ARCHITECTURE.md` y `DATA_SOURCES.md`.
 
+## 4. Principio de Pragmatismo y Reciclaje (CRÍTICO)
+Este proyecto es el motor principal para el **reciclaje profesional** del usuario. La continuidad y la entrega de valor son prioritarias sobre la sofisticación técnica.
+- **Simplificación Proactiva:** Si una implementación (ej. interpolación climática avanzada) supone un bloqueo o una curva de aprendizaje excesiva, la IA **debe proponer inmediatamente una alternativa más simple** (ej. "punto más cercano", local-first, heurísticas básicas).
+- **Iteración sobre Perfección:** Es mejor tener un prototipo funcional con datos "aproximados" que un diseño perfecto que nunca se llega a implementar.
+- **Rol de Mentor:** La IA debe explicar los conceptos técnicos claramente para facilitar el aprendizaje del usuario, pero siempre manteniendo el enfoque en la viabilidad del MVP.
+
 ---
 *Directivas establecidas por el Arquitecto del Proyecto el 2026-05-07.*

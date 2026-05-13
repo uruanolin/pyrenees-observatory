@@ -12,7 +12,8 @@ Registro histórico de las intervenciones de Inteligencia Artificial en el proye
     5.  Definición de heurísticas para índices de riesgo logístico y constructivo.
     6.  Redacción del plan MVP realista centrado en Lleida (`MVP_PLAN.md`).
     7.  Establecimiento de las `AI_GUIDELINES.md` para trazabilidad futura.
-- **Racional Técnico:** Se ha priorizado establecer un "cimiento de conocimiento" (metadata-heavy) antes de escribir código Python. Esto permite que cualquier modelo de lenguaje posterior recupere el contexto total del proyecto y las decisiones de diseño (H3 como pegamento, DuckDB como motor).
+    8.  **Refinamiento por Pragmatismo:** Actualización de directivas para priorizar el reciclaje profesional del usuario. Se ha formalizado la regla de "Simplificación Proactiva" en caso de bloqueos técnicos para asegurar la viabilidad del MVP.
+- **Racional Técnico:** Se ha priorizado establecer un "cimiento de conocimiento" robusto antes de escribir código. El enfoque ahora es explícitamente pragmático: el éxito del proyecto se mide por la capacidad del usuario para iterar y aprender, no por la complejidad de la arquitectura. La IA tiene el mandato de simplificar el alcance si surgen cuellos de botella.
 
 ---
-*Fin de la fase de inicialización técnica.*
+*Fin de la fase de inicialización técnica y estratégica.*
