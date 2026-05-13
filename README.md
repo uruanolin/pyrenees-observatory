@@ -35,6 +35,7 @@ El stack está elegido para maximizar la velocidad analítica y la visualizació
 Siguiendo las buenas prácticas de organización, este repositorio mantiene una memoria activa en `/metadata`:
 - **[MVP_PLAN.md](./metadata/meta/MVP_PLAN.md):** Hoja de ruta simplificada y realista para el prototipo.
 - **[AI_GUIDELINES.md](./metadata/meta/AI_GUIDELINES.md):** 🤖 Reglas y estándares para la colaboración con IAs.
+- **[ENGINEERING_STANDARDS.md](./metadata/meta/ENGINEERING_STANDARDS.md):** 🛠️ Estándares de desarrollo, testing y CI/CD.
 - **[ARCHITECTURE.md](./metadata/meta/ARCHITECTURE.md):** Análisis profundo y diseño del sistema.
 - **[DATA_SOURCES.md](./metadata/meta/DATA_SOURCES.md):** Catálogo de fuentes e índices heurísticos.
 - **[DECISIONS.md](./metadata/meta/DECISIONS.md):** Log de decisiones técnicas (ADR).
