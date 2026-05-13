@@ -33,6 +33,8 @@ El stack está elegido para maximizar la velocidad analítica y la visualizació
 
 ## 4. Estructura de Metadatos
 Siguiendo las buenas prácticas de organización, este repositorio mantiene una memoria activa en `/metadata`:
+
+- **[AI_CONTEXT.md](./metadata/AI_CONTEXT.md):** 🚀 **LEER PRIMERO.** Punto de entrada para IAs (Handover).
 - **[MVP_PLAN.md](./metadata/meta/MVP_PLAN.md):** Hoja de ruta simplificada y realista para el prototipo.
 - **[AI_GUIDELINES.md](./metadata/meta/AI_GUIDELINES.md):** 🤖 Reglas y estándares para la colaboración con IAs.
 - **[ENGINEERING_STANDARDS.md](./metadata/meta/ENGINEERING_STANDARDS.md):** 🛠️ Estándares de desarrollo, testing y CI/CD.
