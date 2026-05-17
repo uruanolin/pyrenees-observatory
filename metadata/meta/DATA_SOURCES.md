@@ -13,9 +13,23 @@ Se priorizan agencias nacionales y europeas que garantizan continuidad y precisi
 | **Meteo** | [AEMET](https://opendata.aemet.es/) / [Météo-France](https://meteo.data.gouv.fr/) | Tiempo real, histórico y avisos | 100% | Latido dinámico del territorio. |
 | **Meteo** | [Meteocat](https://apidocs.meteocat.gencat.cat/) | Estaciones automáticas (XEMA) | 100% | Granularidad extrema para Lleida/Girona. |
 | **Land Cover** | [Copernicus Land (CORINE)](https://land.copernicus.eu/) | Usos del suelo, vegetación | 95% | Clasificación de aptitud para construcción/logística. |
-| **Hidrología** | [ACA (CAT)](https://aca.gencat.cat/) / [CHE (Ebro)](https://www.chebro.es/) | Caudales, niveles de embalses | 100% | Modelado de cuencas y estrés hídrico. |
+| Hidrología | [ACA (CAT)](https://aca.gencat.cat/) / [CHE (Ebro)](https://www.chebro.es/) | Caudales, niveles de embalses | 100% | Modelado de cuencas y estrés hídrico. |
 
 ---
+
+## 2. Sensores Visuales (Webcams)
+Se utilizan para la validación visual de los índices dinámicos (Ground Truth).
+
+| Proveedor | Región | Tipo |
+| :--- | :--- | :--- |
+| **Meteo Pyrénées** | Francia (Global) | Alta Resolución / Time-lapse |
+| **N-PY / France Montagnes** | Francia (Estaciones) | Estables / API-ready |
+| **Infonieve / Aramón** | España (Estaciones) | Cobertura de valles |
+| **Albergues y Refugios (FAM/FEEC)** | España (Alta Cota) | Puntos estratégicos de riesgo |
+| **DGT / Bison Futé / Mobilitat.ad** | Transfronterizo | Tráfico y estado de puertos |
+
+---
+
 
 ## 2. Estrategia de Cruce de Datos (Indices Design)
 
