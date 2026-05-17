@@ -51,12 +51,26 @@ CREATE TABLE weather_events (
     source_api VARCHAR -- 'AEMET', 'METEOCAT', 'METEOFRANCE'
 );
 
+-- Table for visual sensors (Ground Truth)
+CREATE TABLE visual_sensors (
+    camera_id VARCHAR PRIMARY KEY,
+    h3_index_8 VARCHAR,
+    display_name VARCHAR,
+    source_type VARCHAR, -- 'image', 'youtube', 'hls'
+    access_url VARCHAR,
+    provider VARCHAR,
+    elevation_meters DOUBLE,
+    last_update TIMESTAMP
+);
+
 -- Indices for performance
 CREATE INDEX idx_weather_h3 ON weather_events (h3_index_8);
 CREATE INDEX idx_weather_time ON weather_events (timestamp);
+CREATE INDEX idx_camera_h3 ON visual_sensors (h3_index_8);
 ```
 
 ### Racional de Diseño:
 - **`base_h3_grid`**: Almacena lo que no cambia (o cambia poco). Es el "esqueleto".
 - **`weather_events`**: Almacena el "latido" del territorio. La relación es 1 a N.
+- **`visual_sensors`**: Metadatos de webcams para validación visual de índices (Ground Truth).
 - **UUID**: Para los eventos, permitiendo ingestas distribuidas sin colisiones.
