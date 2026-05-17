@@ -32,11 +32,6 @@ Este plan define una ruta realista y práctica para construir un prototipo funci
 - **Backend Robusto:** DuckDB local será nuestro motor. No nos liaremos con escalado de servidores todavía.
 - **Frontend Pixel-Perfect:** Usaremos componentes base de Deck.gl. El valor está en el dato, no en el padding del botón.
 
-## 4. Trazabilidad para IAs
-Cualquier asistente que trabaje en este proyecto debe:
-1. **Priorizar SQL sobre Python:** Si una transformación puede hacerse en DuckDB, se hace en DuckDB.
-2. **Mantener H3 como ID:** Nunca mover datos sin el `h3_index_8`.
-3. **Documentar Heurísticas:** Cada fórmula matemática debe estar explicada en `metadata/meta/DATA_SOURCES.md`.
-
 ---
 *Plan diseñado para la transición de Frontend a Data/GIS Engineer.*
+
