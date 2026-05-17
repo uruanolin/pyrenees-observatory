@@ -7,8 +7,8 @@ Bienvenido al **Pyrenees Observatory**, un sistema de observabilidad territorial
 ## 📂 Índice
 - [1. Visión y Misión](#1-visión-y-misión)
 - [2. Arquitectura Técnica](#2-arquitectura-técnica)
-- [3. Principios de Diseño](#3-principios-de-diseño)
-- [4. Estructura de Metadatos](#4-estructura-de-metadatos)
+- [3. Documentación para el Usuario (Guías)](./docs/README.md)
+- [4. Estructura de Metadatos (Para IAs)](#4-estructura-de-metadatos)
 - [5. Primeros Pasos](#5-primeros-pasos)
 
 ---
